@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EntityLayer", "CSharkEgitimKampi301.EntityLayer\CSharpEgitimKampi301.EntityLayer.csproj", "{ACDEFA9B-093B-46D0-9CAF-03F77AE3E2BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharkEgitimKampi301.DataAccessLayer", "CSharkEgitimKampi301.DataAccessLayer\CSharkEgitimKampi301.DataAccessLayer.csproj", "{AFA23CD5-5610-410C-9179-DE45EA8E2004}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.DataAccessLayer", "CSharkEgitimKampi301.DataAccessLayer\CSharpEgitimKampi301.DataAccessLayer.csproj", "{AFA23CD5-5610-410C-9179-DE45EA8E2004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharkEgitimKampi301.BusinessLayer", "CSharkEgitimKampi301.BusinessLayer\CSharkEgitimKampi301.BusinessLayer.csproj", "{DF33753D-1E92-4ED5-BFC2-F28E9A00F92E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.BusinessLayer", "CSharkEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj", "{DF33753D-1E92-4ED5-BFC2-F28E9A00F92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharkEgitimKampi301.PresentationLayer", "CSharkEgitimKampi301.PresentationLayer\CSharkEgitimKampi301.PresentationLayer.csproj", "{81AA1ED3-ED79-4239-A979-0F1AD7FE3CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.PresentationLayer", "CSharkEgitimKampi301.PresentationLayer\CSharpEgitimKampi301.PresentationLayer.csproj", "{81AA1ED3-ED79-4239-A979-0F1AD7FE3CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
