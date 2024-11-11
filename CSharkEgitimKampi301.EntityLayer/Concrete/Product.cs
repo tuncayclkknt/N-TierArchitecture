@@ -14,5 +14,8 @@ namespace CSharkEgitimKampi301.EntityLayer.Concrete
         public int ProductStock { get; set; }
         public decimal ProductPrice { get; set; }
         public string PrdouctDescription { get; set; }
+        public int CategortId { get; set; }
+        public virtual Category Category { get; set; }
+        public List<Order> Orders { get; set; }
     }
 }

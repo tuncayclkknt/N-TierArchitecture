@@ -11,6 +11,7 @@ namespace CSharkEgitimKampi301.EntityLayer.Concrete
         public int CatagoryId { get; }//primary key and autoincreasing
         public string CatagoryName { get; set; }
         public bool CatagoryStatus { get; set; }
+        public List<Product> Products { get; set; } //one category iclude more products
 
     }
 }
