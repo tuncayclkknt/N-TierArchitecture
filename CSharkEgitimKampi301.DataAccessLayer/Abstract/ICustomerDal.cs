@@ -9,5 +9,6 @@ namespace CSharkEgitimKampi301.DataAccessLayer.Abstract
 {
     public interface ICustomerDal : IGenericDal<Customer>
     {
+
     }
 }
