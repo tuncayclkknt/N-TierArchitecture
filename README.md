@@ -3,4 +3,5 @@
 <p>
   C Sharp eğitim kursu kapsamı çerçevesinde Entity Framework metodlarını kullanarak var olan database tablolardan bilgileri
   form uygulamamıza aktardık. Where, Max, Select gibi methodları kullandık ve ayrınca "x => x.LocationCity" gibi LINQ sorgularınıda kullanmış olduk.
+  Nerde ne zaman hangi metodları kullanacağımızı, ne gibi sorunlarla karşılaşabileceğimizi de deneyimledik.
 </p>
