@@ -13,10 +13,10 @@ namespace CSharpEgitimKampi301.EFProject
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EgitimKampiEFTravelDbEntities : DbContext
+    public partial class EgitimKampiEFTravelDbEntities3 : DbContext
     {
-        public EgitimKampiEFTravelDbEntities()
-            : base("name=EgitimKampiEFTravelDbEntities")
+        public EgitimKampiEFTravelDbEntities3()
+            : base("name=EgitimKampiEFTravelDbEntities3")
         {
         }
     
@@ -26,9 +26,9 @@ namespace CSharpEgitimKampi301.EFProject
         }
     
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<TblAdmin> TblAdmin { get; set; }
         public virtual DbSet<TblCustomer> TblCustomer { get; set; }
         public virtual DbSet<TblGuide> TblGuide { get; set; }
         public virtual DbSet<TblLocation> TblLocation { get; set; }
-        public virtual DbSet<TblAdmin> TblAdmin { get; set; }
     }
 }

@@ -58,13 +58,13 @@
     <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Context\CampContext.cs" />
-    <Compile Include="Migrations\202411161552406_mig1.cs" />
-    <Compile Include="Migrations\202411161552406_mig1.Designer.cs">
-      <DependentUpon>202411161552406_mig1.cs</DependentUpon>
+    <Compile Include="Migrations\202411221452085_mig1.cs" />
+    <Compile Include="Migrations\202411221452085_mig1.Designer.cs">
+      <DependentUpon>202411221452085_mig1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202411161556165_mig2.cs" />
-    <Compile Include="Migrations\202411161556165_mig2.Designer.cs">
-      <DependentUpon>202411161556165_mig2.cs</DependentUpon>
+    <Compile Include="Migrations\202411221456113_mig2.cs" />
+    <Compile Include="Migrations\202411221456113_mig2.Designer.cs">
+      <DependentUpon>202411221456113_mig2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,11 +84,11 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202411161552406_mig1.resx">
-      <DependentUpon>202411161552406_mig1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411221452085_mig1.resx">
+      <DependentUpon>202411221452085_mig1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202411161556165_mig2.resx">
-      <DependentUpon>202411161556165_mig2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202411221456113_mig2.resx">
+      <DependentUpon>202411221456113_mig2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

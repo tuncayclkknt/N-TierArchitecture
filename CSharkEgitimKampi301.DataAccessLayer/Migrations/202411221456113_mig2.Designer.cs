@@ -13,7 +13,7 @@ namespace CSharkEgitimKampi301.DataAccessLayer.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202411161556165_mig2"; }
+            get { return "202411221456113_mig2"; }
         }
         
         string IMigrationMetadata.Source

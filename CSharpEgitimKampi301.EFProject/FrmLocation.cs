@@ -18,7 +18,7 @@ namespace CSharpEgitimKampi301.EFProject
             InitializeComponent();
         }
 
-        EgitimKampiEFTravelDbEntities db = new EgitimKampiEFTravelDbEntities();
+        EgitimKampiEFTravelDbEntities3 db = new EgitimKampiEFTravelDbEntities3();
 
         private void btnList_Click(object sender, EventArgs e)
         {
