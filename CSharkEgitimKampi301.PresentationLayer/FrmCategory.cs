@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace CSharkEgitimKampi301.PresentationLayer
 {
-    public partial class Form1 : Form
+    public partial class FrmCategory : Form
     {
-        public Form1()
+        public FrmCategory()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
