@@ -72,9 +72,11 @@
             this.btnList.TabIndex = 2;
             this.btnList.Text = "List";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(519, 50);
             this.dataGridView1.Name = "dataGridView1";
@@ -137,6 +139,7 @@
             this.rdbPassive.TabStop = true;
             this.rdbPassive.Text = "Passive";
             this.rdbPassive.UseVisualStyleBackColor = true;
+            this.rdbPassive.CheckedChanged += new System.EventHandler(this.rdbPassive_CheckedChanged);
             // 
             // btnGetById
             // 
@@ -147,6 +150,7 @@
             this.btnGetById.TabIndex = 10;
             this.btnGetById.Text = "Get By ID";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnUpdate
             // 
@@ -157,6 +161,7 @@
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -167,6 +172,7 @@
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -177,6 +183,7 @@
             this.btnAdd.TabIndex = 13;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // FrmCategory
             // 
