@@ -50,7 +50,14 @@ namespace CSharkEgitimKampi301.PresentationLayer
         {
             Category category = new Category();
             category.CategoryName = txtCategoryName.Text;
-            category.CategoryStatus = true;
+
+            if (rdbActive.Checked){
+                category.CategoryStatus = true;
+            }
+            else if (rdbPassive.Checked) { 
+                category.CategoryStatus = false;
+            }
+
             _categoryService.TInsert(category);
             btnList_Click(sender, e);
             MessageBox.Show("Succesfully added.");
@@ -63,7 +70,16 @@ namespace CSharkEgitimKampi301.PresentationLayer
             int updatedId = int.Parse(txtCategoryId.Text);
             var updatedValue = _categoryService.TGetById(updatedId);
             updatedValue.CategoryName = txtCategoryName.Text;
-            updatedValue.CategoryStatus = true;
+
+            if (rdbActive.Checked)
+            {
+                updatedValue.CategoryStatus = true;
+            }
+            else if (rdbPassive.Checked)
+            {
+                updatedValue.CategoryStatus = false;
+            }
+
             _categoryService.TUpdate(updatedValue);
             btnList_Click(sender,e);
             MessageBox.Show("Succesfully updated.");

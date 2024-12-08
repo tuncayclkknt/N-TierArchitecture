@@ -119,8 +119,9 @@
             // rdbActive
             // 
             this.rdbActive.AutoSize = true;
+            this.rdbActive.Checked = true;
             this.rdbActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbActive.Location = new System.Drawing.Point(199, 184);
+            this.rdbActive.Location = new System.Drawing.Point(201, 190);
             this.rdbActive.Name = "rdbActive";
             this.rdbActive.Size = new System.Drawing.Size(87, 29);
             this.rdbActive.TabIndex = 8;
@@ -132,11 +133,10 @@
             // 
             this.rdbPassive.AutoSize = true;
             this.rdbPassive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbPassive.Location = new System.Drawing.Point(320, 185);
+            this.rdbPassive.Location = new System.Drawing.Point(322, 191);
             this.rdbPassive.Name = "rdbPassive";
             this.rdbPassive.Size = new System.Drawing.Size(102, 29);
             this.rdbPassive.TabIndex = 9;
-            this.rdbPassive.TabStop = true;
             this.rdbPassive.Text = "Passive";
             this.rdbPassive.UseVisualStyleBackColor = true;
             this.rdbPassive.CheckedChanged += new System.EventHandler(this.rdbPassive_CheckedChanged);
