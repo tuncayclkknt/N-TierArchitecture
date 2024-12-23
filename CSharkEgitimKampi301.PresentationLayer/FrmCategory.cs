@@ -1,6 +1,5 @@
 ﻿using CSharkEgitimKampi301.BusinessLayer.Abstract;
 using CSharkEgitimKampi301.BusinessLayer.Concrete;
-using CSharkEgitimKampi301.DataAccessLayer.Abstract;
 using CSharkEgitimKampi301.DataAccessLayer.EntityFramework;
 using CSharkEgitimKampi301.EntityLayer.Concrete;
 using System;
